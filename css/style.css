@@ -1,14 +1,55 @@
-#banner{
-    background-color: #e5547e ;
-    
-    
+#banner {
+    background-color: #f9ecf0;
+    display: flex;
+    align-items: center;
+
 }
-.head{
-    text-align: center;
-    height: 50px;
+
+.text {
+    text-align: left;
     width: 200px;
-    margin-top: 100px;
+    margin-left: 50px;
+
 }
-.pic{
-    size: 10px;
+
+.btn-primary {
+    background-color: #e5547e;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.profile-pic {
+    display: flex;
+    width: 300px;
+    padding-left: 300px;
+}
+
+/* main section 1 */
+
+#featured {
+    text-align: center
+}
+
+.featured-pic {
+    border:white
+}
+.featured-pic-1{
+    background-color: #e0cfd8 ;
+}
+.featured-pic-2{
+    background-color: #c4e5e7;
+}
+.featured-pic-3{
+    background-color: #d1d6cb;
+}
+
+/* main section 2 */
+#deal{
+    text-align: center;
+    background-color:#dfc5cc ;
+    height: 200px;
+}
+.off{
+    color: #e5547e;
 }
