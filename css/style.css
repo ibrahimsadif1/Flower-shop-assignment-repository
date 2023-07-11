@@ -1,15 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 #banner {
     background-color: #f9ecf0;
     display: flex;
     align-items: center;
+    height: 100vh;
+    justify-content: center;
+    gap:100px;
 
 }
 
 .text {
     text-align: left;
-    width: 200px;
-    margin-left: 50px;
-
+    width: 500px;
+    margin-left: 30px;
+}
+.h1{
+    font-size: 50px;
 }
 
 .btn-primary {
@@ -17,12 +26,13 @@
     border: none;
     color: white;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .profile-pic {
-    display: flex;
-    width: 300px;
-    padding-left: 300px;
+    width: 350px;
+    height: 450px;
+    margin-top: 120px;
 }
 
 /* main section 1 */
@@ -36,6 +46,9 @@
 }
 .featured-pic-1{
     background-color: #e0cfd8 ;
+    border-radius: 300px 300px 0px 0px;
+    width:
+
 }
 .featured-pic-2{
     background-color: #c4e5e7;
@@ -46,10 +59,38 @@
 
 /* main section 2 */
 #deal{
+   display: flex;
+    align-items: center;
     text-align: center;
     background-color:#dfc5cc ;
-    height: 200px;
+    height: 500px;
+    position: relative;
+    
+
+}
+.hot-deal{
+    width: 470px;
 }
 .off{
     color: #e5547e;
 }
+.deal-pic{
+    display: flex;
+}
+/* main section 3 */
+
+#instagram{
+  text-align: center;
+}
+.insta-pic{
+    display: flex;
+    
+    justify-content: space-around;
+}
+/* main section 4 */
+
+#last{
+    text-align: center;
+    background: url()
+}
+
