@@ -153,8 +153,12 @@ body{
     text-align: center;
     padding-top: 200px;
 }
-.form{
-    
+.last-heading p{
+    margin: 15px;
+}
+.box{
+    width: 480px;
+    padding: 10px;
 }
 /* footer section */
 
